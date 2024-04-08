@@ -62,7 +62,7 @@ const ScheduleMeetingModal = ({ closeModal }) => {
                 ) : (
                     <div className='flex justify-center py-5 px-3'>
                         <div>
-                            <div className='flex justify-center'><img className='h-[70px] w-[70px] rounded-full' src='https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?w=740' alt='demo image' /></div>
+                            <div className='flex justify-center'><img className='h-[70px] w-[70px] rounded-full' src='https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?w=740' alt='profile' /></div>
                             <div className='flex justify-center mt-3'>
                                 <div className='flex items-center gap-x-3'><div className=' text-green-500'><FontAwesomeIcon icon={faCircleCheck} /></div><div>You are scheduled</div></div>
                             </div>
