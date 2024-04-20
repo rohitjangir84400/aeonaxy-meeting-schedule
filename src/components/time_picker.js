@@ -13,9 +13,9 @@ export default function Timepicker({handlenext , setSelectedTime}) {
             {times.map((time, index) => (
                 <div key={index} className="flex gap-2 items-baseline" onClick={() => {handleDivSelection(index); setSelectedTime(time)}}>
                     <div className={` ${selectedDiv === index ? 'w-[50%] px-2 text-center bg-[#635d5a] text-white' : 'w-full px-10 text-enter border-blue-500 text-blue-500 hover:ring-2 ring-blue-500 ring-inset'} font-bold mb-2 py-3 border rounded-lg `} >{time}</div>
-                    <div>
+                    <div className={`${selectedDiv===index?'w-[50%] px-2':''}`}>
                         {selectedDiv === index && (
-                            <button className="rounded-lg text-center px-2 py-3 bg-blue-500 text-white font-bold" onClick={()=>handlenext()} >Next</button>
+                            <button className="rounded-lg text-center px-2 py-3 bg-blue-500 text-white font-bold w-full" onClick={()=>handlenext()} >Next</button>
                         )}
                     </div>
                 </div>
