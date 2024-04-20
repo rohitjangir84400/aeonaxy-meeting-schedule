@@ -25,7 +25,7 @@ const ScheduleMeetingModal = ({ closeModal }) => {
 
     return (
         <div className="fixed inset-0 flex justify-center items-center bg-gray-800 bg-opacity-75 overflow-auto">
-            <div className='absolute top-10 right-10 text-white cursor-pointer' onClick={closeModal}><FontAwesomeIcon icon={faX} /></div>
+            <div className='absolute top-10 sm:right-10 right-1 text-white cursor-pointer' onClick={closeModal}><FontAwesomeIcon icon={faX} /></div>
             <div className="bg-white rounded-lg h-[80vh] w-[70vw] overflow-y-scroll ">
                 {!scheduled ? (
                     <div className='flex md:flex-nowrap flex-wrap'>
