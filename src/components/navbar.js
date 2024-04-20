@@ -66,7 +66,7 @@ export default function NavBar({ openModal }) {
                 </div>
             </nav>
             {openmenu ?
-                <div className='px-10'>
+                <div className='px-1'>
                     <div className='mt-5'>
                         <div className='border-2 border-[#242938] px-3 py-2 text-center'onClick={openModal}>Get a demo</div>
                     </div>
